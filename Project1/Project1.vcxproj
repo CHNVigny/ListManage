@@ -18,6 +18,9 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ListManage.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{67C26AC1-6517-4545-9858-E26E78C93273}</ProjectGuid>
     <RootNamespace>Project1</RootNamespace>
@@ -118,9 +121,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\C_ProgramingLanguage\Homeworks\shujujiegou\Project1\Project1\ListManage.c" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

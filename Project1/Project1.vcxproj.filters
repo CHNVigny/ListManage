@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\C_ProgramingLanguage\Homeworks\shujujiegou\Project1\Project1\ListManage.c">
+    <ClCompile Include="ListManage.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
