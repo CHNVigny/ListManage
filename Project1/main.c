@@ -34,7 +34,7 @@ void CreatList(List *l)//创建链表，包括头结点和尾节点
 }
 
 //从文件里恢复链表
-void AddNode(List *l, char name, char brend, int num, int price)//向链表中添加节点,并且排序。
+void AddNode(List *l, char name[], char brend[], int num, int price)//向链表中添加节点,并且排序。
 {
 	Node *p = (Node*)malloc(sizeof(Node));
 	Node *q;
